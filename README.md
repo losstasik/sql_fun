@@ -13,7 +13,7 @@ with recursive blah(n) as (
 select n from blah;
 ```
 
-### create table withdates between 19000101 and 21000101
+#### create table with dates between 19000101 and 21000101
 ```
 create table dates as with recursive mydates(tdate) as (
 	select cast ('19000101' as date) tdate
