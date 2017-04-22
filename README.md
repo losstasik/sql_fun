@@ -3,7 +3,7 @@ sql
 
 ## Oracle
 
-### generate statistics
+#### generate statistics
 ```
 EXEC dbms_stats.gather_schema_stats('SCOTT', cascade=>TRUE);
 EXEC dbms_stats.gather_table_stats('SCOTT','EMP',cascade=>TRUE);
